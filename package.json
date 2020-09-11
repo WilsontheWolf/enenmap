@@ -1,6 +1,6 @@
 {
   "name": "enenmap",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Enhanced Enmap | By BadBoyHaloCat | Extends Enmap by Evie.Codes",
   "main": "index.js",
   "dependencies": {
