@@ -39,9 +39,9 @@ class EnEnmap extends Enmap {
      * const autoEnmap = new Enenmap({name: "settings", autoEnsure: { setting1: false, message: "default message"}})
      */
     constructor(options = {}) { // No defaults needed, enmap does this.
-        let parsedOpts = {};
-        if (options) {
-            // eslint-disable-next-line no-inner-declarations
+        let parsedOpts = options;
+        if (typeof options === 'object') { // this makes just string values work
+            parsedOpts = {};
             [
                 'name',
                 'fetchAll',
