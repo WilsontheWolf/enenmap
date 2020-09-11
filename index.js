@@ -1,4 +1,3 @@
-const { peachpuff } = require('color-name');
 /**
  * enenmap
  * By BadBoyHaloCat
@@ -6,10 +5,10 @@ const { peachpuff } = require('color-name');
  */
 
 // Modules
-const enmap = require('enmap');
+const Enmap = require('enmap');
 
 // Main class
-class enenmap extends enmap {
+class EnEnmap extends Enmap {
     /**
      * Initializes a new Enenmap, with options.
      * @param {Object} [options={}] Additional options for the enenmap.
@@ -63,4 +62,4 @@ class enenmap extends enmap {
     }
 }
 
-module.exports = enenmap;
+module.exports = EnEnmap;
