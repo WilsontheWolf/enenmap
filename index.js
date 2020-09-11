@@ -29,7 +29,7 @@ class EnEnmap extends Enmap {
      * // Non-persistent enmap:
      * const inMemory = new Enenmap();
      *
-     * // Named, Persistent enmap with string option
+     * // Named, Persistent enenmap with string option
      * const myEnmap = new Enenmap("testing");
      *
      * // Enenmap that does not fetch everything, but does so on per-query basis:
